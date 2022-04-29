@@ -10,4 +10,7 @@
 
     <color name="cardwhite">#FFFFFF</color>
     <color name="lightblack">#7C7878</color>
+    <color name="lightblue">#6491B5</color>
+    <color name="bg">#f0dfc8</color>
+
 </resources>

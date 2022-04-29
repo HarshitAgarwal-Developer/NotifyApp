@@ -1,10 +1,11 @@
-package com.prasadthegreat.reminderapp;
+package com.dataflair.reminderapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Window;
 
 public class splashActivity extends AppCompatActivity {
 
@@ -16,7 +17,7 @@ public class splashActivity extends AppCompatActivity {
         int secondsDelayed = 1;
         new Handler().postDelayed(new Runnable() {
             public void run() {
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                startActivity(new Intent(getApplicationContext(), MainActivity.class));             //after 500 milliseconds this block calls the mainActivity
                 finish();
             }
         }, secondsDelayed * 500);
